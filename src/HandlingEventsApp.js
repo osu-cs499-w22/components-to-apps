@@ -24,6 +24,8 @@ function App(props) {
   return (
     <div>
       <ToggleButton />
+      <ToggleButton />
+      <ToggleButton />
       <button onClick={(e) => {
         console.log("== The button was clicked, event:", e)
       }}>
